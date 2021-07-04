@@ -2124,10 +2124,6 @@ App.controller('Main', function ($scope, $timeout, $location, Api, tmhDynamicLoc
          debugLog('subscribed to state_changed', res);
       });
 
-      Api.subscribeEvents('tileboard', function (res) {
-         debugLog('subscribed to tileboard', res);
-      });
-
       Api.getStates(function (res) {
          if (res.success) {
             debugLog(res.result);
