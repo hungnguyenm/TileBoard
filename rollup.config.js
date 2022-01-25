@@ -3,7 +3,7 @@ import progress from 'rollup-plugin-progress';
 import mergeCopy from 'rollup-plugin-copy-merge';
 import babel from '@rollup/plugin-babel';
 import commonjs from '@rollup/plugin-commonjs';
-import copy from 'rollup-plugin-cpy';
+import copy from 'rollup-plugin-copy-glob';
 import del from 'rollup-plugin-delete';
 import emitEJS from 'rollup-plugin-emit-ejs';
 import html from 'rollup-plugin-html';
@@ -12,7 +12,7 @@ import serve from 'rollup-plugin-serve';
 import styles from 'rollup-plugin-styles';
 import { terser } from 'rollup-plugin-terser';
 
-const BUNDLED_LOCALES = ['de', 'en-gb', 'en-us', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'ru'];
+const BUNDLED_LOCALES = ['da', 'de', 'en-gb', 'en-us', 'es', 'fr', 'it', 'nl', 'pl', 'pt', 'ru'];
 
 const isProduction = process.env.PRODUCTION === 'true';
 const outDir = 'build';
@@ -61,7 +61,7 @@ const config = {
          ],
       }),
       progress(),
-      commonjs(),
+      commonjs({ ignoreTryCatch: false }),
       resolve(),
       babel({
          babelHelpers: 'bundled',

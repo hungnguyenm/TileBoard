@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.8.0](https://github.com/resoai/TileBoard/compare/v2.7.0...v2.8.0) (2021-12-04)
+
+
+### Features
+
+* allow custom classes on screensaver slides ([#796](https://github.com/resoai/TileBoard/issues/796)) ([514abba](https://github.com/resoai/TileBoard/commit/514abba9f82819d1d6686b18bbb11b8e5df0bb06))
+
+## [2.7.0](https://github.com/resoai/TileBoard/compare/v2.6.5...v2.7.0) (2021-11-22)
+
+
+### Features
+
+* create docker images for standalone use ([#793](https://github.com/resoai/TileBoard/issues/793)) ([73a854e](https://github.com/resoai/TileBoard/commit/73a854e9d121a22b040ff88a126ba00bd30e0f30))
+
+### [2.6.5](https://github.com/resoai/TileBoard/compare/v2.6.4...v2.6.5) (2021-10-28)
+
+
+### Bug Fixes
+
+* charts not working ([#783](https://github.com/resoai/TileBoard/issues/783)) ([8a62b98](https://github.com/resoai/TileBoard/commit/8a62b988be5ffc8c12fa086ac3bbc53ad34a202d))
+* handle web socket API URL that have extra double slashes ([#782](https://github.com/resoai/TileBoard/issues/782)) ([71d0633](https://github.com/resoai/TileBoard/commit/71d063399a3131c1f5e4ba795192e1df291f5358))
+
+### [2.6.4](https://github.com/resoai/TileBoard/compare/v2.6.3...v2.6.4) (2021-10-26)
+
+
+### Bug Fixes
+
+* **LIGHT:** better styling for the view triggered on long press ([#780](https://github.com/resoai/TileBoard/issues/780)) ([8193f33](https://github.com/resoai/TileBoard/commit/8193f33d532321edbe449532eff469af30aa903f))
+
+### [2.6.3](https://github.com/resoai/TileBoard/compare/v2.6.2...v2.6.3) (2021-08-06)
+
+
+### Bug Fixes
+
+* **light:** fix light brightness adjustment buttons after HA update ([#746](https://github.com/resoai/TileBoard/issues/746)) ([dd9510f](https://github.com/resoai/TileBoard/commit/dd9510f1e4c484b8d2b3abcb059d70c7006c7718)), closes [#743](https://github.com/resoai/TileBoard/issues/743)
+
+### [2.6.2](https://github.com/resoai/TileBoard/compare/v2.6.1...v2.6.2) (2021-07-21)
+
 ### [2.6.1](https://github.com/resoai/TileBoard/compare/v2.6.0...v2.6.1) (2021-05-23)
 
 
